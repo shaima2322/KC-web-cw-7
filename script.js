@@ -21,8 +21,8 @@ function calculate() {
 
 let bmi = BMI(weight ,height);
 
-let desc = satuts(bmi);
+let desc = Status(bmi);
 
-let div = document.getElementById;("result")
+let div = document.getElementById("result");
 div.innerText = bmi + " == " + desc;
 }
