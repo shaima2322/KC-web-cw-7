@@ -4,7 +4,7 @@ return result;
 }
 console.log(BMI(50,1.66) );
 
-function status(bmi) {
+function Status(bmi) {
 
 if (bmi < 18.5) {
     return "لديك نقص في الوزن";
@@ -16,13 +16,13 @@ if (bmi < 18.5) {
 }
 function calculate() {
 
-    let weight = document.getElementById(weight).value;
-    let height = document.getElementById(height).value;
+    let weight = document.getElementById("weight").value;
+    let height = document.getElementById("height").value;
 
 let bmi = BMI(weight ,height);
 
 let desc = satuts(bmi);
 
-let div = document.getElementById;("result");
+let div = document.getElementById;("result")
 div.innerText = bmi + " == " + desc;
 }
